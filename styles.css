@@ -1,0 +1,149 @@
+h1 {
+    position: relative;
+    float: center;
+    margin-top: 50px;
+}
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    text-align: center;
+}
+#tagline {
+    font-family: "Helvetica Neue";
+    font-size: 16px;
+    color:#FF1919;
+    width: 100%;
+    padding-top: none;
+    display: block;
+}
+ul {
+    position: relative;
+    display:inline;
+    width: 100%;
+    cursor: pointer;
+    list-style-type: none;
+}
+.masterList {
+    margin-left: 15%;
+}
+.smallerheading ul {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+footer {
+    font-family: "Helvetica Neue";
+    font-size: 12px;
+    text-align: center;
+}
+.collapsibleListOpen {
+    list-style: url("/Users/Lauren/Documents/Bootstrap/img/collapse.5.png");
+    cursor: pointer;
+    height: 950px;
+    position: relative;
+    -o-transition: height 1s ease;
+    -moz-transition: height 1s ease;
+    -webkit-transition: height 1s ease;
+    transition: height 1s ease;
+}
+smallerheading.collapsibleListOpen li {
+    height: 650px !important;
+     -o-transition: height 1s ease;
+    -moz-transition: height 1s ease;
+    -webkit-transition: height 1s ease;
+    transition: height 1s ease;
+}
+.collapsibleListClosed {
+    height: 120px;
+    list-style:url("/Users/Lauren/Documents/Bootstrap/img/expand.5.png");
+    cursor: pointer;
+    -o-transition: height 1s ease;
+    -moz-transition: height 1s ease;
+    -webkit-transition: height 1s ease;
+    transition: height 1s ease;
+}
+.aboutExpand.collapsibleListOpen {
+    list-style: url("/Users/Lauren/Documents/Bootstrap/img/collapse.5.png");
+    cursor: pointer;
+    height: 370px !important;
+    -o-transition: height 1s ease;
+    -moz-transition: height 1s ease;
+    -webkit-transition: height 1s ease;
+    transition: height 1s ease;
+}
+.designExpand.collapsibleListOpen {
+    list-style: url("/Users/Lauren/Documents/Bootstrap/img/collapse.5.png");
+    cursor: pointer;
+    height: 100% !important;
+    -o-transition: height 1s ease;
+    -moz-transition: height 1s ease;
+    -webkit-transition: height 1s ease;
+    transition: height 1s ease;
+    position: relative;
+}
+.researchExpand.collapsibleListOpen {
+    list-style: url("/Users/Lauren/Documents/Bootstrap/img/collapse.5.png");
+    cursor: pointer;
+    height: 100% !important;
+    -o-transition: height 1s ease;
+    -moz-transition: height 1s ease;
+    -webkit-transition: height 1s ease;
+    transition: height 1s ease;
+}
+.contactExpand.collapsibleListOpen {
+    list-style: url("/Users/Lauren/Documents/Bootstrap/img/collapse.5.png");
+    cursor: pointer;
+    height: 200px !important;
+    -o-transition: height 1s ease;
+    -moz-transition: height 1s ease;
+    -webkit-transition: height 1s ease;
+    transition: height 1s ease;
+    position: relative;
+}
+.contactBox:first-line {
+    font-family: "Arial Narrow";
+    font-size: 24px;
+    color: #989898;
+}
+.contactBox {
+    text-decoration: none;
+    color: #FF33FF;
+    font-size: 24px;
+    font-family: "Arial Narrow";
+}
+a.contactBox:hover {
+    text-decoration: underline;
+}
+.scrollingpix {
+    display: block;
+    width: 650px;
+    height: 350px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+}
+.frame {
+    display: inline;
+    width: 400px;
+    height: 350px;
+    position: relative;
+}
+.button {
+    font-family: "Arial Narrow";
+    font-size: 16px;
+    color: #FFFFFF;
+    display: block;
+    background-color: #FF1919;
+    height: 20px;
+    width: 200px;
+    border: 2px solid #989898;
+    text-align: center;
+    border-radius: 20px;
+}
+a.button {
+    text-decoration: none;
+}
+.button:hover {
+    background-color: #989898;
+    -webkit-transition: background-color .5s;
+}
