@@ -37,7 +37,7 @@ footer {
     text-align: center;
 }
 .collapsibleListOpen {
-    list-style: url("/img/collapse.5.png");
+    list-style: url("/Users/Lauren/Documents/Bootstrap/img/collapse.5.png");
     cursor: pointer;
     height: 950px;
     position: relative;
@@ -55,7 +55,7 @@ smallerheading.collapsibleListOpen li {
 }
 .collapsibleListClosed {
     height: 120px;
-    list-style:url("/img/expand.5.png");
+    list-style:url("/Users/Lauren/Documents/Bootstrap/img/expand.5.png");
     cursor: pointer;
     -o-transition: height 1s ease;
     -moz-transition: height 1s ease;
@@ -63,7 +63,7 @@ smallerheading.collapsibleListOpen li {
     transition: height 1s ease;
 }
 .aboutExpand.collapsibleListOpen {
-    list-style: url("/img/collapse.5.png");
+    list-style: url("/Users/Lauren/Documents/Bootstrap/img/collapse.5.png");
     cursor: pointer;
     height: 370px !important;
     -o-transition: height 1s ease;
@@ -72,7 +72,7 @@ smallerheading.collapsibleListOpen li {
     transition: height 1s ease;
 }
 .designExpand.collapsibleListOpen {
-    list-style: url("/img/collapse.5.png");
+    list-style: url("/Users/Lauren/Documents/Bootstrap/img/collapse.5.png");
     cursor: pointer;
     height: 100% !important;
     -o-transition: height 1s ease;
@@ -82,7 +82,7 @@ smallerheading.collapsibleListOpen li {
     position: relative;
 }
 .researchExpand.collapsibleListOpen {
-    list-style: url("/img/collapse.5.png");
+    list-style: url("/Users/Lauren/Documents/Bootstrap/img/collapse.5.png");
     cursor: pointer;
     height: 100% !important;
     -o-transition: height 1s ease;
@@ -91,7 +91,7 @@ smallerheading.collapsibleListOpen li {
     transition: height 1s ease;
 }
 .contactExpand.collapsibleListOpen {
-    list-style: url("/img/collapse.5.png");
+    list-style: url("/Users/Lauren/Documents/Bootstrap/img/collapse.5.png");
     cursor: pointer;
     height: 200px !important;
     -o-transition: height 1s ease;
@@ -116,7 +116,7 @@ a.contactBox:hover {
 }
 .scrollingpix {
     display: block;
-    width: 650px;
+    width: 700px;
     height: 350px;
     overflow-x: auto;
     overflow-y: hidden;
@@ -127,6 +127,27 @@ a.contactBox:hover {
     width: 400px;
     height: 350px;
     position: relative;
+}
+p.frame {
+    background: rgba(0,0,0,0.5);
+    color: white;
+    font-family: "Helvetica Neue";
+    white-space: pre-wrap;
+    cursor: pointer;
+    height: 200px;
+    left: 40px;
+    position: absolute;
+    top: 100px;
+    bottom: 0px;
+    width: 400px;
+    opacity: 0;
+    -webkit-transition: opacity 500ms;
+    -moz-transition: opacity 500ms;
+    -o-transition: opacity 500ms;
+    transition: opacity 500ms;
+}
+p.frame:hover {
+    opacity: 1;
 }
 .button {
     font-family: "Arial Narrow";
